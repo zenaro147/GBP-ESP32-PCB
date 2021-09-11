@@ -7,3 +7,6 @@ A simple PCB design to work with this projects by me:
 * [Game Boy -related custom hardware by gekkio](https://github.com/Gekkio/gb-hardware)
 * [Game Boy WiFi Printer - D1 Mini Shield](https://github.com/cristofercruz/gbp-esp-shield-pcb)
 * [Gameboy Link Cable Breakout PCB](https://github.com/Palmr/gb-link-cable)
+
+## External References
+* [ESP32-DEVKITC-32D](https://www.snapeda.com/parts/ESP32-DEVKITC-32D/Espressif%20Systems/view-part/)
