@@ -1,4 +1,4 @@
-# GBP_ESP32_PCB
+# Gameboy Printer Emulator - ESP32 PCB
 A simple PCB design to work with this projects by me:
 * [NeoGB Printer](https://github.com/zenaro147/NeoGB-Printer)
 * [WiFi GBP Emulator - ESP32 Version](https://github.com/zenaro147/wifi-gbp-emulator/tree/feature/v3-esp32)
