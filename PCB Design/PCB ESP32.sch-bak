@@ -1,0 +1,644 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R1
+U 1 1 6123165B
+P 9250 5450
+F 0 "R1" H 9320 5496 50  0000 L CNN
+F 1 "1k Resistor" H 9320 5405 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9180 5450 50  0001 C CNN
+F 3 "~" H 9250 5450 50  0001 C CNN
+	1    9250 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 61231CAB
+P 9900 5450
+F 0 "D1" H 9893 5667 50  0000 C CNN
+F 1 "StatusLED" H 9893 5576 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 9900 5450 50  0001 C CNN
+F 3 "~" H 9900 5450 50  0001 C CNN
+	1    9900 5450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Gekkio_Connector_Specialized:GameBoy_LinkPort J3
+U 1 1 6126C67F
+P 10150 2450
+F 0 "J3" H 10280 2389 50  0000 L CNN
+F 1 "GameBoy_LinkPort" H 10280 2298 50  0000 L CNN
+F 2 "Gekkio_Connector:GameBoy_LinkPort_MGB_Horizontal" H 10050 2150 50  0001 C CNN
+F 3 "" H 10050 2150 50  0001 C CNN
+	1    10150 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 6126EABF
+P 9800 3150
+F 0 "#PWR0101" H 9800 2900 50  0001 C CNN
+F 1 "GND" H 9805 2977 50  0000 C CNN
+F 2 "" H 9800 3150 50  0001 C CNN
+F 3 "" H 9800 3150 50  0001 C CNN
+	1    9800 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 2650 9800 2650
+Wire Wire Line
+	9800 2650 9800 3050
+$Comp
+L power:GND #PWR0102
+U 1 1 6126F9A3
+P 10400 5450
+F 0 "#PWR0102" H 10400 5200 50  0001 C CNN
+F 1 "GND" H 10405 5277 50  0000 C CNN
+F 2 "" H 10400 5450 50  0001 C CNN
+F 3 "" H 10400 5450 50  0001 C CNN
+	1    10400 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 6128A8AC
+P 9350 4950
+F 0 "#PWR0103" H 9350 4700 50  0001 C CNN
+F 1 "GND" H 9355 4777 50  0000 C CNN
+F 2 "" H 9350 4950 50  0001 C CNN
+F 3 "" H 9350 4950 50  0001 C CNN
+	1    9350 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 6128B599
+P 9350 4250
+F 0 "#PWR0104" H 9350 4000 50  0001 C CNN
+F 1 "GND" H 9355 4077 50  0000 C CNN
+F 2 "" H 9350 4250 50  0001 C CNN
+F 3 "" H 9350 4250 50  0001 C CNN
+	1    9350 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 4850 9350 4950
+Wire Wire Line
+	9400 5450 9750 5450
+Wire Wire Line
+	10050 5450 10400 5450
+Connection ~ 9800 3050
+Wire Wire Line
+	9800 3050 9800 3150
+$Comp
+L Connector_Generic:Conn_01x02 J4
+U 1 1 61287B86
+P 5800 6300
+F 0 "J4" V 5764 6112 50  0000 R CNN
+F 1 "5vBatteryPins" V 5673 6112 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 5800 6300 50  0001 C CNN
+F 3 "~" H 5800 6300 50  0001 C CNN
+	1    5800 6300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6050 6050 6050 6500
+Wire Wire Line
+	6050 6500 5900 6500
+$Comp
+L power:GND #PWR0107
+U 1 1 6128A620
+P 5800 6750
+F 0 "#PWR0107" H 5800 6500 50  0001 C CNN
+F 1 "GND" H 5805 6577 50  0000 C CNN
+F 2 "" H 5800 6750 50  0001 C CNN
+F 3 "" H 5800 6750 50  0001 C CNN
+	1    5800 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 6500 5800 6750
+$Comp
+L power:GND #PWR0108
+U 1 1 612B0BF8
+P 10500 4200
+F 0 "#PWR0108" H 10500 3950 50  0001 C CNN
+F 1 "GND" V 10505 4072 50  0000 R CNN
+F 2 "" H 10500 4200 50  0001 C CNN
+F 3 "" H 10500 4200 50  0001 C CNN
+	1    10500 4200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10300 4350 10200 4350
+Wire Wire Line
+	10200 4350 10200 4200
+Wire Wire Line
+	10200 4200 10500 4200
+Wire Wire Line
+	10300 4650 9450 4650
+Wire Wire Line
+	9450 4650 9450 4750
+$Comp
+L Switch:SW_Push SW1
+U 1 1 612B764A
+P 5750 4250
+F 0 "SW1" H 5750 4535 50  0000 C CNN
+F 1 "SW_Push" H 5750 4444 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_Tactile_Straight_KSA0Axx1LFTR" H 5750 4450 50  0001 C CNN
+F 3 "~" H 5750 4450 50  0001 C CNN
+	1    5750 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 612B8CD2
+P 5300 4400
+F 0 "R3" V 5507 4400 50  0000 C CNN
+F 1 "10k Resistor" V 5416 4400 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5230 4400 50  0001 C CNN
+F 3 "~" H 5300 4400 50  0001 C CNN
+	1    5300 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5950 4250 6700 4250
+Wire Wire Line
+	5550 4250 5550 4400
+$Comp
+L power:GND #PWR0109
+U 1 1 612C1B91
+P 5000 4400
+F 0 "#PWR0109" H 5000 4150 50  0001 C CNN
+F 1 "GND" H 5005 4227 50  0000 C CNN
+F 2 "" H 5000 4400 50  0001 C CNN
+F 3 "" H 5000 4400 50  0001 C CNN
+	1    5000 4400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5150 4400 5000 4400
+Wire Wire Line
+	5450 4400 5550 4400
+Connection ~ 5550 4400
+Wire Wire Line
+	5550 4400 5550 4650
+$Comp
+L power:GND #PWR0110
+U 1 1 612DBAF6
+P 2750 5050
+F 0 "#PWR0110" H 2750 4800 50  0001 C CNN
+F 1 "GND" H 2755 4877 50  0000 C CNN
+F 2 "" H 2750 5050 50  0001 C CNN
+F 3 "" H 2750 5050 50  0001 C CNN
+	1    2750 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 5200 5650 6050
+Wire Wire Line
+	5650 6050 6050 6050
+Wire Wire Line
+	6500 5500 6500 5350
+Wire Wire Line
+	5950 5400 5950 5650
+Connection ~ 6050 6050
+Wire Wire Line
+	3400 5350 4100 5350
+Wire Wire Line
+	6550 5550 6550 5800
+$Comp
+L power:GND #PWR0105
+U 1 1 6128BD23
+P 6550 5800
+F 0 "#PWR0105" H 6550 5550 50  0001 C CNN
+F 1 "GND" H 6555 5627 50  0000 C CNN
+F 2 "" H 6550 5800 50  0001 C CNN
+F 3 "" H 6550 5800 50  0001 C CNN
+	1    6550 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 6200 8800 6200
+Wire Wire Line
+	8800 5750 8800 6200
+Text Notes 7050 6700 0    50   ~ 0
+GB Printer Emulator - ESP32 Version
+Text Notes 7050 7000 0    50   ~ 0
+Works to these projects: \nWifi GBP Emulator - ESP32 Version (https://bit.ly/3mIIKRQ)\nBitBoy Clone (https://bit.ly/3zsWsfd)
+Text Notes 7350 7500 0    50   ~ 10
+GB Printer Emulator - ESP32 Version
+NoConn ~ 3400 4850
+$Comp
+L Zenaro~Library:OledDisplay_SSD1305_128_32 U3
+U 1 1 612AD943
+P 10400 4350
+F 0 "U3" H 10122 4454 50  0000 R CNN
+F 1 "OledDisplay_SSD1305_128_32" H 10122 4545 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" V 10000 4500 50  0001 C CNN
+F 3 "" V 10000 4500 50  0001 C CNN
+	1    10400 4350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2750 5050 2750 4850
+Wire Wire Line
+	3400 5450 3400 5600
+Wire Wire Line
+	2750 4550 3400 4550
+Wire Wire Line
+	2900 4850 2750 4850
+Connection ~ 2750 4850
+Wire Wire Line
+	2750 4850 2750 4550
+Wire Wire Line
+	10300 4450 9600 4450
+Wire Wire Line
+	9600 4450 9600 6350
+Wire Wire Line
+	9600 6350 6650 6350
+Wire Wire Line
+	6650 6350 6650 6050
+Connection ~ 6650 6050
+$Comp
+L Connector_Generic:Conn_01x06 J6
+U 1 1 612DDEA3
+P 7650 3350
+F 0 "J6" V 7614 2962 50  0000 R CNN
+F 1 "LV_pins" V 7523 2962 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 7650 3350 50  0001 C CNN
+F 3 "~" H 7650 3350 50  0001 C CNN
+	1    7650 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 612E715E
+P 8350 3250
+F 0 "#PWR0111" H 8350 3000 50  0001 C CNN
+F 1 "GND" H 8355 3077 50  0000 C CNN
+F 2 "" H 8350 3250 50  0001 C CNN
+F 3 "" H 8350 3250 50  0001 C CNN
+	1    8350 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 2750 7750 2550
+Wire Wire Line
+	7750 2550 8350 2550
+Wire Wire Line
+	8350 2550 8350 3050
+Wire Wire Line
+	7750 3550 7750 3750
+Wire Wire Line
+	7750 3750 8600 3750
+Wire Wire Line
+	8600 3750 8600 3050
+Wire Wire Line
+	8600 3050 8350 3050
+Connection ~ 8350 3050
+Wire Wire Line
+	8350 3050 8350 3250
+Wire Wire Line
+	7650 3550 7650 3750
+Connection ~ 6700 4250
+Wire Wire Line
+	2900 5600 3400 5600
+Wire Wire Line
+	6700 3750 7650 3750
+Wire Wire Line
+	6700 3750 6700 4250
+Wire Wire Line
+	9850 2250 7950 2250
+Wire Wire Line
+	7950 2250 7950 2750
+Wire Wire Line
+	7850 2350 7850 2750
+Wire Wire Line
+	7850 2350 9850 2350
+Wire Wire Line
+	7850 3550 7850 3850
+Wire Wire Line
+	7850 3850 9000 3850
+Wire Wire Line
+	9000 3850 9000 4350
+Wire Wire Line
+	9850 2550 8600 2550
+Wire Wire Line
+	8600 2550 8600 2050
+Wire Wire Line
+	8600 2050 7550 2050
+Wire Wire Line
+	7550 2050 7550 2750
+Wire Wire Line
+	7550 3550 7550 3650
+Wire Wire Line
+	7550 3650 9100 3650
+Wire Wire Line
+	9100 3650 9100 5050
+$Comp
+L Connector_Generic:Conn_01x06 J5
+U 1 1 612DD4B6
+P 7650 2950
+F 0 "J5" V 7522 2562 50  0000 R CNN
+F 1 "HV_pins" V 7613 2562 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 7650 2950 50  0001 C CNN
+F 3 "~" H 7650 2950 50  0001 C CNN
+	1    7650 2950
+	0    -1   1    0   
+$EndComp
+NoConn ~ 7450 3550
+NoConn ~ 7450 2750
+Wire Wire Line
+	9000 4450 9000 4550
+Wire Wire Line
+	9450 4750 9450 5350
+Connection ~ 9450 4750
+$Comp
+L Zenaro~Library:MicroSD_Card_module U4
+U 1 1 612E28ED
+P 4050 4300
+F 0 "U4" V 4004 4628 50  0000 L CNN
+F 1 "MicroSD_Card_module" V 4095 4628 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 4050 4650 50  0001 C CNN
+F 3 "" H 4050 4650 50  0001 C CNN
+	1    4050 4300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 5350 4150 5600
+Wire Wire Line
+	3400 5250 3900 5250
+Wire Wire Line
+	4250 5250 4250 5500
+Wire Wire Line
+	3400 5150 4000 5150
+Wire Wire Line
+	4350 5150 4350 5400
+Wire Wire Line
+	4450 5050 4450 5300
+Wire Wire Line
+	3400 5050 3800 5050
+Wire Wire Line
+	4550 4950 4550 5200
+Wire Wire Line
+	3400 4950 4200 4950
+Wire Wire Line
+	3800 4400 3800 5050
+Connection ~ 3800 5050
+Wire Wire Line
+	3800 5050 4450 5050
+Wire Wire Line
+	3900 4400 3900 5250
+Connection ~ 3900 5250
+Wire Wire Line
+	3900 5250 4250 5250
+Wire Wire Line
+	4000 4400 4000 5150
+Connection ~ 4000 5150
+Wire Wire Line
+	4000 5150 4350 5150
+Wire Wire Line
+	4100 4400 4100 5350
+Connection ~ 4100 5350
+Wire Wire Line
+	4100 5350 4150 5350
+Wire Wire Line
+	4200 4400 4200 4950
+Connection ~ 4200 4950
+Wire Wire Line
+	4200 4950 4550 4950
+Wire Wire Line
+	3400 4750 3400 4550
+Wire Wire Line
+	4300 4400 4300 4550
+Wire Wire Line
+	4300 4550 3400 4550
+Connection ~ 3400 4550
+NoConn ~ 9850 2450
+Wire Wire Line
+	10150 3050 9950 3050
+Wire Wire Line
+	6100 5600 6100 5150
+$Comp
+L pspice:R R2
+U 1 1 612862DC
+P 5050 6050
+F 0 "R2" V 5255 6050 50  0000 C CNN
+F 1 "1k Resistor" V 5164 6050 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 5050 6050 50  0001 C CNN
+F 3 "~" H 5050 6050 50  0001 C CNN
+	1    5050 6050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 6128367D
+P 4000 6050
+F 0 "#PWR0106" H 4000 5800 50  0001 C CNN
+F 1 "GND" H 4005 5877 50  0000 C CNN
+F 2 "" H 4000 6050 50  0001 C CNN
+F 3 "" H 4000 6050 50  0001 C CNN
+	1    4000 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 61284707
+P 4400 6050
+F 0 "D2" H 4393 6267 50  0000 C CNN
+F 1 "PowerLED" H 4393 6176 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 4400 6050 50  0001 C CNN
+F 3 "~" H 4400 6050 50  0001 C CNN
+	1    4400 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 6050 4550 6050
+Wire Wire Line
+	4250 6050 4000 6050
+Wire Wire Line
+	5300 6050 5650 6050
+Connection ~ 5650 6050
+$Comp
+L Zenaro~Library:SD_Card_module U2
+U 1 1 612B0F0B
+P 3300 5100
+F 0 "U2" V 3254 5428 50  0000 L CNN
+F 1 "SD_Card_module" V 3345 5428 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 3300 5450 50  0001 C CNN
+F 3 "" H 3300 5450 50  0001 C CNN
+	1    3300 5100
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	2900 5600 2900 4850
+Wire Wire Line
+	4550 5200 5650 5200
+Wire Wire Line
+	4450 5300 5800 5300
+Wire Wire Line
+	5800 5300 5800 6200
+Wire Wire Line
+	4350 5400 5950 5400
+Wire Wire Line
+	4250 5500 6500 5500
+Wire Wire Line
+	4150 5600 6100 5600
+Wire Wire Line
+	7650 2750 7650 2700
+Wire Wire Line
+	7650 2700 9600 2700
+Wire Wire Line
+	9600 2700 9600 4450
+Connection ~ 9600 4450
+Wire Wire Line
+	6050 6050 6650 6050
+Wire Wire Line
+	9750 5250 9750 4550
+Wire Wire Line
+	9000 4550 9750 4550
+Wire Wire Line
+	9750 4550 10300 4550
+Connection ~ 9750 4550
+Wire Wire Line
+	8900 3950 8900 4950
+Wire Wire Line
+	7950 3550 7950 3950
+Wire Wire Line
+	7950 3950 8900 3950
+$Comp
+L Device:R R4
+U 1 1 612EA88C
+P 8700 1500
+F 0 "R4" V 8493 1500 50  0000 C CNN
+F 1 "10k Resistor" V 8584 1500 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8630 1500 50  0001 C CNN
+F 3 "~" H 8700 1500 50  0001 C CNN
+	1    8700 1500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9850 2150 9850 1500
+Wire Wire Line
+	9850 1500 9450 1500
+Wire Wire Line
+	8550 1500 8550 1200
+Wire Wire Line
+	8550 1200 10400 1200
+Wire Wire Line
+	10400 1200 10400 3100
+Wire Wire Line
+	10400 3100 9950 3100
+Wire Wire Line
+	9950 3100 9950 3050
+Connection ~ 9950 3050
+Wire Wire Line
+	9950 3050 9800 3050
+$Comp
+L Device:R R5
+U 1 1 612EAF26
+P 9300 1500
+F 0 "R5" V 9093 1500 50  0000 C CNN
+F 1 "4.7k Resistor" V 9184 1500 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9230 1500 50  0001 C CNN
+F 3 "~" H 9300 1500 50  0001 C CNN
+	1    9300 1500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8850 1500 9000 1500
+Wire Wire Line
+	9000 1500 9000 1850
+Connection ~ 9000 1500
+Wire Wire Line
+	9000 1500 9150 1500
+Wire Wire Line
+	9000 1850 6450 1850
+Wire Wire Line
+	6450 1850 6450 4850
+$Comp
+L Zenaro~Library:ESP32_DEVBOARD_WROOM U1
+U 1 1 613155F2
+P 7800 6150
+F 0 "U1" H 7800 8315 50  0000 C CNN
+F 1 "ESP32_DEVBOARD_WROOM" H 7800 8224 50  0000 C CNN
+F 2 "esp32-Devboard:MODULE_ESP32-DEVKITC-32D" H 7800 6000 50  0001 C CNN
+F 3 "" H 7800 6000 50  0001 C CNN
+	1    7800 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 6050 7000 6050
+Wire Wire Line
+	6700 4250 7000 4250
+Wire Wire Line
+	5550 4650 7000 4650
+Wire Wire Line
+	6450 4850 7000 4850
+Wire Wire Line
+	6500 5350 7000 5350
+Wire Wire Line
+	6100 5150 7000 5150
+Wire Wire Line
+	7000 5550 6550 5550
+Wire Wire Line
+	5950 5650 7000 5650
+Wire Wire Line
+	8800 5750 8650 5750
+Wire Wire Line
+	8650 5450 9100 5450
+Wire Wire Line
+	9450 5350 8650 5350
+Wire Wire Line
+	8650 5250 9750 5250
+Wire Wire Line
+	9100 5050 8650 5050
+Wire Wire Line
+	8900 4950 8650 4950
+Wire Wire Line
+	8650 4850 9350 4850
+Wire Wire Line
+	9450 4750 8650 4750
+Wire Wire Line
+	8650 4450 9000 4450
+Wire Wire Line
+	9000 4350 8650 4350
+Wire Wire Line
+	8650 4250 9350 4250
+$Comp
+L Connector_Generic:Conn_01x19 J2
+U 1 1 612968C7
+P 8450 5150
+F 0 "J2" H 8368 6267 50  0000 C CNN
+F 1 "ESP32RightPins" H 8368 6176 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x19_P2.54mm_Vertical" H 8450 5150 50  0001 C CNN
+F 3 "~" H 8450 5150 50  0001 C CNN
+	1    8450 5150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x19 J1
+U 1 1 612A47C4
+P 7200 5150
+F 0 "J1" H 7118 6267 50  0000 C CNN
+F 1 "ESP32LeftPins" H 7118 6176 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x19_P2.54mm_Vertical" H 7200 5150 50  0001 C CNN
+F 3 "~" H 7200 5150 50  0001 C CNN
+	1    7200 5150
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

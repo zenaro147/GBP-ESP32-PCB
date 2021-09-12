@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name Gekkio_Connector)(type KiCad)(uri ${KIPRJMOD}/tools/gekkio-kicad-libs-master/Gekkio_Connector.pretty)(options "")(descr ""))
+  (lib (name "Zenaro Library")(type KiCad)(uri "${KIPRJMOD}/Zenaro Library.pretty")(options "")(descr ""))
+  (lib (name esp32-Devboard)(type KiCad)(uri ${KIPRJMOD}/tools/esp32-Devboard)(options "")(descr ""))
+)
