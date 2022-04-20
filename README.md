@@ -8,7 +8,7 @@ A simple PCB design using EasyEDA to work with this projects by me:
 | --- | --- |
 | ESP32 Dev Board (38 pins) | [AliExpress](https://a.aliexpress.com/_mKXR5OW) |
 | OLED Display 128x32 (0.91) | [AliExpress](https://a.aliexpress.com/_mOHbftG) |
-| SD Card/MicroSD Card Module (choose only one. I recommend the SD module) | [AliExpress - SD Card](https://a.aliexpress.com/_mMWz2km / [AliExpress - MicroSD](https://a.aliexpress.com/_m0SS4P4) |
+| SD Card/MicroSD Card Module (choose only one. I recommend the SD module) | [AliExpress - SD Card](https://a.aliexpress.com/_mMWz2km) / [AliExpress - MicroSD](https://a.aliexpress.com/_m0SS4P4) |
 | 4 channel Logical Level Shifter | [AliExpress](https://a.aliexpress.com/_m07pFpU) |
 
 ## Inspirations/References
