@@ -3,12 +3,12 @@ A simple PCB design using EasyEDA to work with this projects by me:
 * [NeoGB Printer](https://github.com/zenaro147/NeoGB-Printer)
 * [WiFi GBP Emulator - ESP32 Version](https://github.com/zenaro147/wifi-gbp-emulator/tree/feature/v3-esp32)
 
-## BOM list
+## BOM list (Rev 1) 
 | Component | Where to buy |
 | --- | --- |
 | ESP32 Dev Board (38 pins) | [AliExpress](https://a.aliexpress.com/_mKXR5OW) |
 | OLED Display 128x32 (0.91) | [AliExpress](https://a.aliexpress.com/_mOHbftG) |
-| SD Card/MicroSD Card Module (choose only one. I recommend the SD module) | [AliExpress - SD Card](https://a.aliexpress.com/_mMWz2km) / [AliExpress - MicroSD](https://a.aliexpress.com/_m0SS4P4) |
+| SD Card/MicroSD Card Module (Choose only one! I recommend the SD module) | [AliExpress - SD Card](https://a.aliexpress.com/_mMWz2km) / [AliExpress - MicroSD](https://a.aliexpress.com/_m0SS4P4) |
 | 4 channel Logical Level Shifter | [AliExpress](https://a.aliexpress.com/_m07pFpU) |
 
 ## Inspirations/References
