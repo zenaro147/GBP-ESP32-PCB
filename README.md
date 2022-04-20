@@ -4,7 +4,7 @@ A simple PCB design using EasyEDA to work with this projects by me:
 * [WiFi GBP Emulator - ESP32 Version](https://github.com/zenaro147/wifi-gbp-emulator/tree/feature/v3-esp32)
 
 ## BOM list
-| Part | Where to buy |
+| Component | Where to buy |
 | --- | --- |
 | ESP32 Dev Board (38 pins) | [AliExpress](https://a.aliexpress.com/_mKXR5OW) |
 
