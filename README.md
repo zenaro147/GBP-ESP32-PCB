@@ -7,9 +7,19 @@ A simple PCB design using EasyEDA to work with this projects by me:
 | Component | Where to buy |
 | --- | --- |
 | ESP32 Dev Board (38 pins) | [AliExpress](https://a.aliexpress.com/_mKXR5OW) |
-| OLED Display 128x32 (0.91) | [AliExpress](https://a.aliexpress.com/_mOHbftG) |
+| OLED Display 128x32 (0.91 inch) | [AliExpress](https://a.aliexpress.com/_mOHbftG) |
 | SD Card/MicroSD Card Module (Choose only one! I recommend the SD module) | [AliExpress - SD Card](https://a.aliexpress.com/_mMWz2km) / [AliExpress - MicroSD](https://a.aliexpress.com/_m0SS4P4) |
 | 4 channel Logical Level Shifter | [AliExpress](https://a.aliexpress.com/_m07pFpU) |
+| Female Pin Header with 40 pins (you need at least 38 pins, or 2 with 20pins) | [AliExpress](https://www.aliexpress.com/item/4000096276148.html) |
+| PushButton 4.5x4.5mm (any height) | [AliExpress](https://www.aliexpress.com/item/1005001629344310.html) |
+| 5k or 10k resistor | [AliExpress](https://www.aliexpress.com/item/4001082088353.html) |
+| MicroUSB Female | [AliExpress](https://www.aliexpress.com/item/4000385426649.html) |
+| Charging Module with StepUp (5V) - DD05CVSA (optional) | [AliExpress](https://www.aliexpress.com/item/33034500618.html) |
+| Micro Switch - SS-12D00G3 (optional) | [AliExpress](https://www.aliexpress.com/item/1005003938856402.html) |
+| 1500mah Li-Po Battery (optional) | [AliExpress](https://www.aliexpress.com/item/1005003235425542.html) |
+| AGB Link Port Connector (optional) | [AliExpress](https://www.aliexpress.com/item/32858521427.html) |
+| RGB LED 5mm (optional) | [AliExpress](https://www.aliexpress.com/item/1005002535018824.html) |
+| 220R (if you want the LED) resistor | [AliExpress](https://www.aliexpress.com/item/4001082088353.html) |
 
 ## Inspirations/References
 * [Game Boy -related custom hardware by gekkio](https://github.com/Gekkio/gb-hardware)
