@@ -27,6 +27,20 @@ A simple PCB design using EasyEDA to work with this projects by me:
 | RGB LED 5mm (optional) | [AliExpress](https://www.aliexpress.com/item/1005002535018824.html) |
 | 220R resistor (if you want the LED) | [AliExpress](https://www.aliexpress.com/item/4001082088353.html) |
 
+## How to build
+* First of all, solder the resistors, RGB led, button, the level shifter, USB port, and the female pin bar (oh, and the AGB link port, if you have one)
+* Put a little bit of in the RGB led jumper to bridge the middle pad to one of the other pads. (If you want a passthrough USB power, make bridge pads too)
+* Cut all remaining legs
+* Solder the SD/Micro SD module
+* Cut all remaining legs
+* Solder the male pin head for the charging module (but don't solder the module yet)
+* Cut all remaining legs
+* Solder the display and the battery
+* Cut all remaining legs
+* Solder the charging module into the pins
+
+I highly recommend to add some tape to prevent any unwanted contact between the modules (on SD/MicroSD, charging module and display to be more specific) and the solder points
+
 ## Inspirations/References
 * [Game Boy -related custom hardware by gekkio](https://github.com/Gekkio/gb-hardware)
 * [Game Boy WiFi Printer - D1 Mini Shield](https://github.com/cristofercruz/gbp-esp-shield-pcb)
